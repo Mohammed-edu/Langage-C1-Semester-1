@@ -1,1 +1,115 @@
-# Langage-C1-Semester-1
+إليك ملخصك الشامل والكامل بلغة C (من الألف إلى الياء)، منسقاً بعناية بـ **الأسماء والمصطلحات الفرنسية** ومزخرفاً بـ **الرموز التعبيرية (Icons)** ليكون جاهزاً للنسخ واللصق مباشرة في ملف `README.md` على GitHub:
+
+---
+
+# 📚 Résumé Complet du Langage C - Semestre 1
+
+## 1. 🏗️ Structure Générale et Compilation
+
+* **Instruction :** L'ordre élémentaire adressé au processeur pour effectuer une action, se terminant toujours par un point-virgule (`;`).
+
+
+* **Bloc :** Un ensemble d'instructions regroupées entre des accolades `{ }` pour former une unité d'exécution.
+
+
+* **Étapes de Création :** Le passage du code source au programme exécutable passe par la compilation et l'édition de liens.
+
+
+
+---
+
+## 2. 📦 Types de Données et Variables
+
+* **Déclaration :** Permet de réserver un espace mémoire pour une variable avec un type spécifique (ex: `int age;`).
+
+
+* **Affectation (`=`) :** Permet de stocker une valeur dans une `lvalue` (partie gauche).
+
+
+* **Types de Base :**
+* Entiers (`int`, `short`, `long`).
+
+
+* Réels (`float`, `double`).
+
+
+* Caractères (`char`) et la table ASCII.
+
+
+
+
+* **Constantes (`Constants`) :**
+* Par précompilateur : `#define PI 3.14` (sans point-virgule).
+
+
+* Par mot-clé : `const int MAX = 100;` (valeur inchangeable).
+
+
+
+
+
+---
+
+## 3. 🔄 Conversions et Promotions Numériques
+
+* **Promotion Numérique :** Conversion automatique des types `short` et `char` vers le type `int` avant toute opération arithmétique.
+
+
+* **Conversion d'Ajustement :** Ajustement automatique des types mixtes lors des expressions (ex: `int` $\rightarrow$ `float` $\rightarrow$ `double`).
+
+
+* **Opérateur Cast (`(type)expression`) :** Permet de forcer manuellement la conversion d'une expression vers un type choisi.
+
+---
+
+## 4. ⚖️ Opérateurs Relationnels et Logiques
+
+* **Opérateurs Relationnels (`<`, `>`, `<=`, `>=`, `==`, `!=`) :** Permettent de comparer des expressions. Le résultat est toujours un entier (`1` pour *vrai*, `0` pour *faux*).
+
+
+* **Opérateurs Logiques :**
+* Et logique (`&&`).
+
+
+* Ou logique (`||`).
+
+
+* Négation (`!`).
+
+
+
+
+* **Évaluation Court-Circuit :**
+* Pour `&&`, si le 1er opérande est `0`, le 2ème n'est pas évalué.
+
+
+* Pour `||`, si le 1er opérande est vrai, le 2ème n'est pas évalué.
+
+
+
+
+
+---
+
+## 5. ⚡ Incrémentation, Décrémentation et Séquentiel
+
+* **Incrémentation (`++`) et Décrémentation (`--`) :**
+* **Pré-incrémentation / Pré-décrémentation (`++i`, `--i`) :** Modifie la valeur d'abord, puis utilise la nouvelle valeur.
+* **Post-incrémentation / Post-décrémentation (`i++`, `i--`) :** Utilise l'ancienne valeur d'abord, puis modifie la variable.
+
+
+* **Opérateur Séquentiel ( `,` ) :** Permet d'enchaîner plusieurs calculs successifs de gauche à droite dans une même expression.
+
+---
+
+انسخ هذا النص كاملاً والصقه في ملف `README.md` لديك على GitHub، واضغط على **Commit changes** ليصبح ملفك مرتباً واحترافياً للغاية يا بطل! بالتوفيق في مسيرتك البرمجية.
+
+
+
+
+
+
+
+
+
+
